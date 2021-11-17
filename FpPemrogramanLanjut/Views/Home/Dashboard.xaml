@@ -94,15 +94,81 @@
             </Grid.ColumnDefinitions>
 
             <!-- Awal Card1 -->
-            <Grid Grid.Column="0" Grid.Row="0" Background="Black" Opacity=".5"/>
+            <Border CornerRadius="45" Grid.Column="0" Grid.Row="0" Background="#731515" BorderBrush="#D91717" BorderThickness="4" Margin="70,40,0,0"  Width="240" Height="310">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="65*"/>
+                        <RowDefinition Height="35*"/>
+                    </Grid.RowDefinitions>
+
+                    <Border Grid.Column="0" Grid.Row="0" BorderBrush="#D91717" BorderThickness="4" Margin="0,25,0,0" Width="183" Height="173">
+                        <Grid Background="Black">
+                            <Image Source="E:\INFORMATIKA\SEMESTER 3\MATKUL PEMROGRAMAN LANJUT\FpPemrogramanLanjut\FpPemrogramanLanjut\Assets\Eternals.jpg"/>
+                        </Grid>
+                    </Border>
+                    <Grid Grid.Column="0" Grid.Row="1">
+                        <Button Width="150" Height="50" Content="Pilih" FontSize="20" FontWeight="Bold" Foreground="#FFFFFF" Background="#372B2B" Margin="0,20,0,0" BorderBrush="#D91717" BorderThickness="4">
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="CornerRadius" Value="20"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </Grid>
+                </Grid>
+            </Border>
             <!-- Akhir Card1 -->
 
             <!-- Awal Card2 -->
-            <Grid Grid.Column="1" Grid.Row="0" Background="Blue" Opacity=".5"/>
+            <Border CornerRadius="45" Grid.Column="1" Grid.Row="0" Background="#731515" BorderBrush="#D91717" BorderThickness="4" Margin="10,40,0,0"  Width="240" Height="310">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="65*"/>
+                        <RowDefinition Height="35*"/>
+                    </Grid.RowDefinitions>
+
+                    <Border Grid.Column="0" Grid.Row="0" BorderBrush="#D91717" BorderThickness="4" Margin="0,25,0,0" Width="183" Height="173">
+                        <Grid Background="#5C8D8A">
+                            <Image Source="E:\INFORMATIKA\SEMESTER 3\MATKUL PEMROGRAMAN LANJUT\FpPemrogramanLanjut\FpPemrogramanLanjut\Assets\Dune.jpg"/>
+                        </Grid>
+                    </Border>
+                    <Grid Grid.Column="0" Grid.Row="1">
+                        <Button Width="150" Height="50" Content="Pilih" FontSize="20" FontWeight="Bold" Foreground="#FFFFFF" Background="#372B2B" Margin="0,20,0,0" BorderBrush="#D91717" BorderThickness="4">
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="CornerRadius" Value="20"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </Grid>
+                </Grid>
+            </Border>
             <!-- Akhir Card2 -->
 
             <!-- Awal Card3 -->
-            <Grid Grid.Column="2" Grid.Row="0" Background="red" Opacity=".5"/>
+            <Border CornerRadius="45" Grid.Column="2" Grid.Row="0" Background="#731515" BorderBrush="#D91717" BorderThickness="4" Margin="-70,40,0,0"  Width="240" Height="310">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="65*"/>
+                        <RowDefinition Height="35*"/>
+                    </Grid.RowDefinitions>
+
+                    <Border Grid.Column="0" Grid.Row="0" BorderBrush="#D91717" BorderThickness="4" Margin="0,25,0,0" Width="183" Height="173">
+                        <Grid Background="Black">
+                            <Image Source="E:\INFORMATIKA\SEMESTER 3\MATKUL PEMROGRAMAN LANJUT\FpPemrogramanLanjut\FpPemrogramanLanjut\Assets\Venom 2.jpg"/>
+                        </Grid>
+                    </Border>
+                    <Grid Grid.Column="0" Grid.Row="1">
+                        <Button Width="150" Height="50" Content="Pilih" FontSize="20" FontWeight="Bold" Foreground="#FFFFFF" Background="#372B2B" Margin="0,20,0,0" BorderBrush="#D91717" BorderThickness="4">
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="CornerRadius" Value="20"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </Grid>
+                </Grid>
+            </Border>
             <!-- Awal Card3 -->
         </Grid>
         <!-- Akhir Content -->
