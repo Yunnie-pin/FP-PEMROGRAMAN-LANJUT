@@ -103,7 +103,7 @@
 
                     <Border Grid.Column="0" Grid.Row="0" BorderBrush="#D91717" BorderThickness="4" Margin="0,25,0,0" Width="183" Height="173">
                         <Grid Background="Black">
-                            <Image Source="E:\INFORMATIKA\SEMESTER 3\MATKUL PEMROGRAMAN LANJUT\FpPemrogramanLanjut\FpPemrogramanLanjut\Assets\Eternals.jpg"/>
+                            <Image Source="E:\INFORMATIKA\SEMESTER 3\MATKUL PEMROGRAMAN LANJUT\FpPemrogramanLanjut\FpPemrogramanLanjut\Assets\Poster\Eternals.jpg"/>
                         </Grid>
                     </Border>
                     <Grid Grid.Column="0" Grid.Row="1">
@@ -133,7 +133,7 @@
 
                     <Border Grid.Column="0" Grid.Row="0" BorderBrush="#D91717" BorderThickness="4" Margin="0,25,0,0" Width="183" Height="173">
                         <Grid Background="#5C8D8A">
-                            <Image Source="E:\INFORMATIKA\SEMESTER 3\MATKUL PEMROGRAMAN LANJUT\FpPemrogramanLanjut\FpPemrogramanLanjut\Assets\Dune.jpg"/>
+                            <Image Source="E:\INFORMATIKA\SEMESTER 3\MATKUL PEMROGRAMAN LANJUT\FpPemrogramanLanjut\FpPemrogramanLanjut\Assets\Poster\Dune.jpg"/>
                         </Grid>
                     </Border>
                     <Grid Grid.Column="0" Grid.Row="1">
@@ -163,7 +163,7 @@
 
                     <Border Grid.Column="0" Grid.Row="0" BorderBrush="#D91717" BorderThickness="4" Margin="0,25,0,0" Width="183" Height="173">
                         <Grid Background="Black">
-                            <Image Source="E:\INFORMATIKA\SEMESTER 3\MATKUL PEMROGRAMAN LANJUT\FpPemrogramanLanjut\FpPemrogramanLanjut\Assets\Venom 2.jpg"/>
+                            <Image Source="E:\INFORMATIKA\SEMESTER 3\MATKUL PEMROGRAMAN LANJUT\FpPemrogramanLanjut\FpPemrogramanLanjut\Assets\Poster\Venom 2.jpg"/>
                         </Grid>
                     </Border>
                     <Grid Grid.Column="0" Grid.Row="1">
